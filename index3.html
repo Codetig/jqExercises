@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+	<meta charset="UTF-8">
+	<style>
+		div{
+			width: 900px;
+			margin: 0 auto;
+			margin-top: 80px;
+		}
+		.hide {
+			visibility: hidden;
+		}
+	</style>
+	<title>Challenge Three</title>
+</head>
+<body>
+	<div>
+		<form action="javascript:void(0);">
+			<label for="password">Please type in your password:</label>
+			<input id="pword" type="password" required placeholder="password...">
+			<input type="submit" for="pword" class="btn">
+		</form>
+		<p id="nopass" class="hide">You must enter a password</p>
+		<p id="mochar" class="hide">Your password has to be 6 characters or longer</p>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="./app3.js"></script>
+</body>
+</html>
